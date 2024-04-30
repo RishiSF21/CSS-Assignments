@@ -1,0 +1,108 @@
+body{
+    background-color: gray;
+}
+@media only screen and (max-width: 750px) {
+    .content{display: block;}
+    .container1 {display: block; float: right;}
+    .container2 {display: block; float: right;}
+}
+.image{
+    width: 20px;
+}
+/* .page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+.content{
+    /* width: 70%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+}
+.container1{
+    background-color: rgb(179, 60, 60);
+    min-width: 25%;
+    overflow-x: hidden;
+    float: left;
+}
+    .headings{
+        color: #fff;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        font-size: large;
+        margin-left: 20px;
+        padding-top: 20px;
+        line-height: 0.5;
+    }
+    .line{
+        border-top: 2px solid grey;
+        width: 14rem;
+        margin-left: 20px;
+    }
+    .socialmedias{ 
+        margin-left: 20px;
+        color: #fff;
+    }
+    .btn1{
+        width: 14rem;
+        background-color: rgba(64, 64, 193, 0.87);
+        height: 30px;
+        margin-bottom: 4px;
+        color: white;
+        text-align: left;
+    }
+    .btn2{
+        width: 14rem;
+        background-color: rgb(214, 32, 32);
+        height: 30px;
+        margin-bottom: 4px;
+        color: white;
+        text-align: left;
+    }
+    .btn3{
+        width: 14rem;
+        background-color: rgb(19, 181, 181);
+        height: 30px;
+        margin-bottom: 4px;
+        color: white;
+        text-align: left;
+    }
+.container2{
+    background-color: #fff;
+    min-width: 35%;
+    max-width: 35%;
+    /* height: 109%; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: hidden;
+}
+    .data{
+        padding: 20px;
+    }
+    .login-desc{
+        color: rgb(179, 60, 60);
+    }
+    .inputs{
+        padding: 7px;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .login-btn{
+        margin-top: 10px;
+        background-color: rgb(247, 66, 66);
+        color: white;
+        width: 20%;
+        padding: 5px;
+    }
+    .forgot{
+        margin-top: 10px;
+    }
+    .forgot a{
+        text-decoration: none;
+        color: rgb(179, 60, 60);
+    }
+.clear{
+    clear: left;
+}
