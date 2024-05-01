@@ -1,0 +1,27 @@
+.img1, .img2, .img3, .img4{
+    width: 45vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    
+}
+.content1,.content2,.content3,.content4{
+    padding: 10px;
+}
+.img1{
+    border-radius: 10px;
+}
+.img2{
+    border-radius: 200px;
+}
+.content3{
+    border: 1px solid rgb(208, 205, 205);
+}
+.img4{
+    position: relative;
+    box-shadow: 1px 1px 10px grey;
+}

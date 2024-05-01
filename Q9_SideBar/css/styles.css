@@ -1,0 +1,42 @@
+.side-bar{
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    background-color: gainsboro;
+    text-align: left;
+    box-shadow: 1px 0px 10px rgb(177, 173, 173);
+    overflow: auto;
+}
+.side-bar a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px;
+}
+.side-bar a.active{
+    background-color: green;
+    color: white;
+}
+.side-bar a:hover:not(.active){
+    background-color: black;
+    color: white;
+}
+div.content{
+    margin-left: 22%;
+    height: 100%;
+}
+@media screen and (max-width: 700px) {
+    .side-bar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .side-bar a {float: left;}
+    div.content {margin-left: 0;}
+}
+@media screen and (max-width: 400px){
+    .side-bar a{
+        text-align: center;
+        float: none;
+    }
+}

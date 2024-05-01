@@ -1,0 +1,110 @@
+.container1, .container2, .container3 i{
+    font-size: 40px;
+}
+
+.icon1 i{
+    padding: 20px;
+    margin-left: 40px;
+}
+.icon1 i{
+    padding: 20px;
+}
+
+.icon1 .desc1{
+    position:absolute;
+    top: 10px;
+    left: 7vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+.icon1 .desc2{
+    position:absolute;
+    top: 10px;
+    left: 25vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+.icon1 .desc3{
+    position:absolute;
+    top: 10px;
+    left: 40vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+.icon1 .desc4{
+    position:absolute;
+    top: 10px;
+    left: 56vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+
+.icon1 .desc5{
+    position:absolute;
+    top: 12vh;
+    left: 7vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+.icon1 .desc6{
+    position:absolute;
+    top: 12vh;
+    left: 25vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+.icon1 .desc7{
+    position:absolute;
+    top: 12vh;
+    left: 40vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+.icon1 .desc8{
+    position:absolute;
+    top: 12vh;
+    left: 58vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+
+.icon1 .desc9{
+    position:absolute;
+    top: 24vh;
+    left: 7vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+.icon1 .desc10{
+    position:absolute;
+    top: 24vh;
+    left: 24vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+.icon1 .desc11{
+    position:absolute;
+    top: 24vh;
+    left: 40vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
+.icon1 .desc12{
+    position:absolute;
+    top: 24vh;
+    left: 56vh;
+    margin-top: 50px;
+    font-size: medium;
+    padding-top: 10px;
+}
